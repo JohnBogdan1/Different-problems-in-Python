@@ -8,7 +8,6 @@ def LCM_2order(a, b):
 
     return p / a
 
-
 def LCM(list):
     if len(list) == 2:
         return LCM_2order(list[0], list[1])
