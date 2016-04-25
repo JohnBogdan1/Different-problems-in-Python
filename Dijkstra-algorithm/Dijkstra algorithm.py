@@ -47,7 +47,7 @@ def dijkstra(pairs, distances, nodes, sursa, destinatie):
 
 
 if __name__ == '__main__':
-    input = open("djikstra.in", "r")
+    input = open("dijkstra.in", "r")
     N = int(input.readline())
     nodes = []
     for i in range(N):
