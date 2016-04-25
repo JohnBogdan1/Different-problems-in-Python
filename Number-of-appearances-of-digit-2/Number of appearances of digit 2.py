@@ -6,7 +6,6 @@ def count(n, k):
 
     return k
 
-
 if __name__ == '__main__':
     number = 1250000
 
