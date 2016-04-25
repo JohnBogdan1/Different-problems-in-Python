@@ -64,6 +64,7 @@ if __name__ == '__main__':
         distances[(x, y)] = int(cost)
         distances[(y, x)] = int(cost)
 
+
     print("PAIRS: ", pairs)
     print()
 
