@@ -1,2 +1,2 @@
 # Different-problems
-Python Language
+Problems solved in Python Language
