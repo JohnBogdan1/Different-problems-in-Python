@@ -24,8 +24,6 @@ def minimum_adjustments(mesaj, versions, m, n, nr_var):
                 dp[i][j] = 1 + min(dp[i][j - 1], dp[i - 1][j], dp[i - 1][j - 1])
     return dp[m][n]
 
-
-# robert samoilescu
 if __name__ == '__main__':
     file_input = open('evaluare.in', 'r')
     file_output = open('evaluare.out', 'w')
